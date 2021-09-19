@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+    height: 388px;
+}
+
+/* Navigation starts here */
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 20px;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav li a {
+    color: white;
+    text-decoration: none;
+    margin-right: 43px;
+}
+
+.contact-button {
+    background-color: white;
+    color: black;
+    font-weight: bold;
+    border-radius: 28px;
+    padding: 16px 35px;
+}
+
+/* Navigation ends here */
+
+/* Section starts here */
+
+section {
+    max-width: 1200px;
+    width: 100%;
+    margin: 0px auto;
+}
+
+.building-image {
+    width: 1195px;
+}
+
+.building-image1 {
+    width: 235px;
+    height: 220px;
+    padding: 10px;
+}
+
+section p {
+    line-height: 28px;
+    margin: 20px 130px;
+    text-align: justify;
+}
+
+.information-button {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 28px;
+    padding: 16px 57px;
+    margin-left: 450px;
+}
+
+/* Section ends here */
+
+/* Footer starts here */
+
+footer {
+    margin-top: 180px;
+    padding-left: 240;
+    background-color: blue;
+    height: 1030px;
+}
+
+.div1 {
+    padding-top: 275px;
+    padding-left: 240px;
+    width: 650px ;
+}
+
+footer h2, span, .footerlorem {
+    color: white;
+    line-height: 26px;
+}
+
+footer h2 {
+    font-size: 32px;
+}
+
+iframe {
+    width: 463px;
+    height: 197px;
+    border-radius: 15px;
+    box-shadow: -10px 10px #ffffff;
+    border: none;
+}
+
+.div2 {
+    padding-left: 240px;
+}
+
+.div2 li {
+    display: inline;
+    margin: 0px 100px 0px 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer span {
+    display: inline-block;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    padding-left: 240px;
+    padding-top: 200px;
+}
+
+/* Footer ends here */
